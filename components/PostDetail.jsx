@@ -1,5 +1,6 @@
 import React from 'react'
 import moment from 'moment'
+import Footer from './Footer';
 
 const PostDetail = ({ post }) => {
     // This function is used to display the post content which is deconstructed into individual children that us getContentFragment to properly display on screen
