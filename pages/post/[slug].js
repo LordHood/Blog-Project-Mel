@@ -10,8 +10,10 @@ const PostDetails = ({ post }) => {
             <div className='col-span-1 lg:col-span-8'>
                 <PostDetail post={post}/>
                 <Author author={post.author}/>
+                {/* components for comments to be created and displayed... IDK if I actually want to code this
                 <CommentsForm slug={post.slug}/>
                 <Comments slug={post.slug}/>
+                */}
             </div>
             <div className='col-span-1 lg:col-span-4'>
                 <div className='relative lg:sticky top-8'>
@@ -37,6 +39,7 @@ export default PostDetails
   }
 
   // This function is required to generate all the possible paths that are generated to use dynamic linking
+  // ex: '/post/literature-review' ... '/post/...' all possible paths (Dynamic Linking)
   export async function getStaticPaths() {
     const posts = await getPosts();
 

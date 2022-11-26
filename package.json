@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/playfair-display": "^4.5.12",
     "graphql": "^16.5.0",
     "graphql-request": "^4.3.0",
     "html-react-parser": "^3.0.1",

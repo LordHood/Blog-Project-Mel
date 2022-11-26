@@ -3,6 +3,7 @@ import { Layout } from '../components';
 
 import 'tailwindcss/tailwind.css';
 import '../styles/globals.scss';
+import "@fontsource/playfair-display";
 
 function MyApp({ Component, pageProps }) {
   return (

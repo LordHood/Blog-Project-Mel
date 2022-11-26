@@ -8,15 +8,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  font-family: "Playfair Display";
   &:before{
     content:'';
     content: "";
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right bottom, #6d327c, #485DA6, #00a1ba, #01b18e, #32b37b);
-     //background: #D3D3D3;
-    //background-image: url("../public/bg.jpg");
+    //background: linear-gradient(to bottom, #faf0e6, #faf0e6, #faf0e6, #eed9c4, #eed9c4);
+    background: linear-gradient(to bottom, #738276, #738276, #738276, #4d5d53, #4d5d53);
+
     position: fixed;
     left: 0;
     top: 0;
